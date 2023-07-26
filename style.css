@@ -10,7 +10,8 @@ header {
     width:100%;
     position: fixed;
     background: rgba(237, 235, 235, 0.675);
-}
+    justify-content: center;
+   }
 
  nav {
    display: flex;
@@ -21,9 +22,10 @@ header {
  nav img {
     width: 150px;
     padding-left: 5px;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 10px;
- }
+    justify-content: center;
+    }
 
  .nav-links {
     flex: 1;
@@ -40,7 +42,7 @@ header {
  .nav-links .navbar a {
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
  }
 
  .navbar li::after {
@@ -78,7 +80,8 @@ header {
       .home-text p {
         font-size: 20px;
         margin: 0.4rem 0 1.8rem; 
-        padding-left: 11px;
+        margin-left: 0;
+        padding-left: 4px;
       }
     
       .home-text span {
@@ -91,7 +94,7 @@ header {
           color: darkblue;
           border-radius: 10px;
           font-size: 18px;
-          margin-left: 10px;
+          margin-left: 4px;
           text-decoration: none;
       }
     
@@ -108,7 +111,6 @@ header {
             list-style: none;
             padding:5px 5px ;
          }
-
         nav img {
          width: 100px;
          margin-top: 10px;
@@ -127,10 +129,27 @@ header {
        }
        .home-text{
          margin:0 ;
-         color: white;
+         color: black;
        }
        .home-text p{
-         color: white;
+         color: black;
+       }
+       #mission {
+         background-image: url(images/IKEA-Vision\ 2.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-attachment: fixed;
+         color: black;
+         padding-left: 0;
+         padding-right: 0;
+       }
+       .mission .content {
+         padding-left: 0;
+         padding-right: 0;
+         margin-top:400px ;
+         padding-top: 10px;
+         padding-bottom: 10px;
        }
       }
 
@@ -144,6 +163,204 @@ header {
          }
       }
 
-      section {
-         padding: 50px 10%;
+     /* @media (min-width:768px) {
+         #mission {
+            padding-left: 0;
+         padding-right: 0;
+       }
+       .mission .content {
+         padding-left: 0;
+         padding-right: 0;
+         margin-top:380px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         font-size: 28px;
+       }
+         }*/
+
+         section {
+            padding: 50px 10%;
+        }
+      
+     .mission {
+      width: 100%;
+      height: 100vh;
+      background-image: url(images/IKEA-Vision.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      align-items: center;
+      padding-left: 0;
+       padding-right: 0;
      }
+
+     .mission h1 {
+      color: darkblue;
+      font-size: 50px;
+     }
+
+     .mission p {
+      color:black;
+     }
+
+     .content {
+      text-align: center;
+      background: white;
+      color: black;
+      padding: 10px 50px;
+      margin: 0;
+      align-items: center;
+      margin-top: 300px;
+      padding-left: 0;
+      padding-right: 0;
+     }
+
+     .products {
+      padding-top: 60px;
+      padding: 60px 70px;
+      margin-left: 10px;
+      margin-right: 20px;
+    }
+
+    .products h1 {
+      text-align: center;
+     font-size:50px;
+     color: darkblue;
+     padding-top: 40px;
+     padding-bottom: 5px;
+    }
+
+    .shop {
+      margin-top: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content:center;
+      padding-left: 50px;
+      flex-wrap: wrap;
+    }
+
+    .item {
+      flex-basis: 31%;
+      background: darkblue;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      padding: 20px;
+      box-sizing:border-box;
+      margin-right: 20px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.5s;
+    }
+
+    .item img {
+      height: 300px;
+      width: 300px;
+      margin: 30px;
+      justify-content: center;
+      align-items: center;
+      display:block;
+      border-radius: 8px;
+      padding-bottom: 2px;
+      margin-bottom: 5px;
+    }
+
+    .item p {
+        font-weight: bold;
+        text-align: center;
+       align-items: center;
+       align-content: center;
+       color: yellow;
+       padding-top: 2px;
+       margin-top: 0;
+       margin-bottom: 0;
+       display: block;
+       font-size: 18px;
+    }
+
+    .item:hover {
+      box-shadow: 0 0 20px 0 rgba(0,0,0,2);
+    }
+
+    @media (max-width:700px) {
+      .item img {
+         height: 200px;
+         width: 200px;
+    }
+    .products h1 {
+     padding-top: 60px;
+     padding-bottom: 10px;
+     text-align: center;
+    }
+     .shop {
+       padding-left: 34px;
+     }
+     .contact {
+      font-size: 12px;
+      text-align: center;
+     }
+     #team img {
+      height:200px;
+      width:200px;
+      align-items: center;
+     }
+      .info {
+      text-align: center;
+      align-content:center ;
+      justify-content: center;
+      }
+     }
+   
+
+   .team {
+    width:100%;
+    min-height:100vh;
+    background-image: url(images/IKEA_\(8020223012\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+ }
+  
+ .team h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    color: darkblue;
+ }
+
+ .info{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+ }
+
+ .team img {
+    height:400px;
+    width: 400px;
+    padding: 5px 30px;
+ }
+
+ .team p {
+    background: darkblue;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 20px;
+    color: yellow;
+    margin:10px 40px;
+    font-weight: bold;
+ }
+
+   .contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: darkblue;
+    color:yellow;
+   }
+
+  
