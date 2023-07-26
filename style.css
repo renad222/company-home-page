@@ -125,7 +125,7 @@ header {
       }
         .home {
          background-image: url(images/home.jpg);
-         background-position:right;
+         background-position:center;
          background-repeat: no-repeat;
          background-size: contain;
          background-attachment: fixed;
