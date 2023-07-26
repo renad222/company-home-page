@@ -127,7 +127,7 @@ header {
          background-image: url(images/home.jpg);
          background-position:right;
          background-repeat: no-repeat;
-         background-size: cover;
+         background-size: contain;
          background-attachment: fixed;
        }
        .home-text{
