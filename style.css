@@ -1,9 +1,12 @@
 *{
     margin: 0;
     padding:0;
-    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+ 
+body {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 header {
@@ -121,7 +124,7 @@ header {
          font-size: 40px;
       }
         .home {
-         background-image: url('https://images.unsplash.com/photo-1583329550487-0fa300a4cd1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW50ZXJpb3J8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+         background-image: url(images/home.jpg);
          background-position:right;
          background-repeat: no-repeat;
          background-size: cover;
@@ -135,7 +138,7 @@ header {
          color: black;
        }
        #mission {
-         background-image: url(images/IKEA-Vision\ 2.jpg);
+         background-image: url(images/3.jpg);
          background-position: center;
          background-repeat: no-repeat;
          background-size: cover;
@@ -156,7 +159,7 @@ header {
       @media (width:912px) and (height:1368px) {
          .home {
             background-position: right;
-            background-image: url(https://images.unsplash.com/photo-1583329550487-0fa300a4cd1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW50ZXJpb3J8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+            background-image: url(images/home.jpg);
          }
          .home-text {
             margin: 0 auto;
@@ -315,7 +318,7 @@ header {
    .team {
     width:100%;
     min-height:100vh;
-    background-image: url(images/IKEA_\(8020223012\).jpg);
+    background-image: url(images/IKEA.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
