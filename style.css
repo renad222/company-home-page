@@ -73,7 +73,7 @@ header {
    align-items: center;
    background-color: transparent; 
    display: flex;
-   padding-left: 20px;          
+   padding-left: 20px;        
    }
 
    .home-text h1 {
@@ -129,7 +129,6 @@ header {
          background-repeat: no-repeat;
          background-size: cover;
          background-attachment: fixed;
-         width:700px;
        }
        .home-text{
          margin:0 ;
