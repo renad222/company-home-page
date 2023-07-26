@@ -125,9 +125,9 @@ header {
       }
         .home {
          background-image: url(images/home.jpg);
-         background-position:center;
+         background-position:right;
          background-repeat: no-repeat;
-         background-size: contain;
+         background-size: cover;
          background-attachment: fixed;
        }
        .home-text{
